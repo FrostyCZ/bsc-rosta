@@ -1,12 +1,12 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
 
-export const TodoDetail = () => {
+export const NoteDetail = () => {
   return (
     <>
       <Row>
         <Col>
-          <h2 className="text-center">Todo Detail</h2>
+          <h2 className="text-center">Note Detail</h2>
         </Col>
       </Row>
     </>
