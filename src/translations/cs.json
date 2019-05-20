@@ -1,0 +1,10 @@
+{
+  "appbar.title": "Poznámky",
+  "add": "Přidat",
+  "update": "Upravit",
+  "note.edit": "Upravit",
+  "note.delete": "Smazat",
+  "alert.add.done": "Poznámka byla přidána",
+  "alert.delete.done": "Poznámka byla smazána",
+  "alert.update.done": "Poznámka byla upravena"
+}

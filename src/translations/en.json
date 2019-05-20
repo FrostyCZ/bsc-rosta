@@ -1,0 +1,10 @@
+{
+  "appbar.title": "Notes",
+  "add": "Add",
+  "update": "Update",
+  "note.edit": "Edit",
+  "note.delete": "Delete",
+  "alert.add.done": "Note has been added",
+  "alert.delete.done": "Note has been deleted",
+  "alert.update.done": "Note has been updated"
+}

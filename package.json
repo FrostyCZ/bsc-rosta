@@ -4,15 +4,18 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "json-server": "^0.14.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-intl": "^2.9.0",
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
     "reactstrap": "^8.0.0",
     "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0",
+    "redux-saga": "^1.0.2",
     "styled-components": "^4.2.0",
+    "typesafe-actions": "^4.3.0",
     "typescript": "3.4.5"
   },
   "devDependencies": {
@@ -20,6 +23,7 @@
     "@types/node": "12.0.2",
     "@types/react": "16.8.17",
     "@types/react-dom": "16.8.4",
+    "@types/react-intl": "^2.3.17",
     "@types/react-redux": "^7.0.9",
     "@types/react-router-dom": "^4.3.3",
     "@types/reactstrap": "^8.0.1",
@@ -29,7 +33,7 @@
     "pretty-quick": "^1.10.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "json-server --port=3001 --watch db.json & PORT=9000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test"
   },
